@@ -1,4 +1,6 @@
 # Portfolio
+
+**Gaming Room**
 Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
 I worked for Creative Technology Solutions and the client was "The Gaming Room". They wanted our help with bringing their game appliction, Draw it or Lose it, to more web platforms. They were only active on Andriod. 
 
@@ -15,4 +17,26 @@ How did you interpret the user’s needs and implement them into your software d
 Because I am a gamer myself I knew how important it is to make the game user friendly. If the client is not considered then the application will not be useful. A couple needs that I included were account details like a password. 
 
 How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
-I would definetley use the beginning of the document to consider what the client needs and wants. The overview of the constraints and the path of development was very logically useful.
+I would definitely use the beginning of the document to consider what the client needs and wants. The overview of the constraints and the path of development was very logically useful.
+
+**Artemis Financial**
+Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial is a financial consulting company that wanted to modernize its website and update its security.
+
+What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+It is important to secure and fix possible security vulnerabilities to prevent attacks in the future. When the client company is in the financial industry it is especially vital to secure client information. To comply with regulations set in the industry the company must be conscious about fixing any possible vulnerabilities. Good security also helps the company's image in the eyes of the consumer. 
+
+What part of the vulnerability assessment was challenging or helpful to you?
+For most of this course, we focused on using cryptography to create secure code. The most difficult part of cryptography for me was understanding what an algorithm cipher was vs a hash function. I still think they are separate coding practices but some wording in the assignments seemed to interchange them. 
+
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+To increase security in the projects we used the hash function SHA-256 and Maven to access vulnerabilities and understand which needed to be looked at closer and which had no known fixes at the time. We also updated Artemis Financials website from HTTP to HTTPS. This brought better encryption and security using TLS. 
+
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+To make certain I did not introduce new vulnerabilities, I simply reran Maven to produce another dependency report. Then checked to see if what I was expecting was there. 
+
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+I used Java Eclipse to finish these projects. Eclipse enabled me to create certificates and import key tools. If I ever need an additional add-on I know how to import that through Eclipse. I also found it very insightful to use the Windows command prompt for the first time.
+
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+I think I would show them that I understand how to check vulnerabilities and dependencies. The Project also shows them I know how to create a cipher key. In Project Two I would like to show them that I know how to generate a certificate. 
