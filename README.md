@@ -30,7 +30,7 @@ What part of the vulnerability assessment was challenging or helpful to you?
 For most of this course, we focused on using cryptography to create secure code. The most difficult part of cryptography for me was understanding what an algorithm cipher was vs a hash function. I still think they are separate coding practices but some wording in the assignments seemed to interchange them. 
 
 How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
-To increase security in the projects we used the hash function SHA-256 and Maven to access vulnerabilities and understand which needed to be looked at closer and which had no known fixes at the time. We also updated Artemis Financials website from HTTP to HTTPS. This brought better encryption and security using TLS. 
+To increase security in the projects we used the hash function SHA-256 and Maven to access vulnerabilities and understand which needed to be looked at closer and which had no known fixes at the time. We also updated the Artemis Financials website from HTTP to HTTPS. This brought better encryption and security using TLS. 
 
 How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 To make certain I did not introduce new vulnerabilities, I simply reran Maven to produce another dependency report. Then checked to see if what I was expecting was there. 
@@ -40,3 +40,22 @@ I used Java Eclipse to finish these projects. Eclipse enabled me to create certi
 
 Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
 I think I would show them that I understand how to check vulnerabilities and dependencies. The Project also shows them I know how to create a cipher key. In Project Two I would like to show them that I know how to generate a certificate. 
+
+
+**DriverPass**
+Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+DriverPass is a startup that is looking to fill the market gap in online driving test practice. They wanted us to design a system where clients to go to take online up-to-date practice tests and schedule driving time with instructors.
+
+What did you do particularly well?
+I feel that once I got into it I was able to create some good UML diagrams to describe different functions and activities of the website. 
+
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+I think I would like to add more detail to the activity diagrams to account for more possibilities. 
+
+How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+The reason that the website is being created is for the users. Both the client's customers and the clients. I tried to think of actions that the user may need to take, for example, resetting a password. 
+
+How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+I like creating the UML diagrams. They provide a quick overview of how the system needs to be designed. They also help prevent forgetting steps. They are also able to be updated as new things develop, making them a versatile tool.
+
+
