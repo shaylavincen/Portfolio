@@ -58,4 +58,5 @@ The reason that the website is being created is for the users. Both the client's
 How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
 I like creating the UML diagrams. They provide a quick overview of how the system needs to be designed. They also help prevent forgetting steps. They are also able to be updated as new things develop, making them a versatile tool.
 
-
+**ContactClass**
+To ensure that my code is functional, I created JUnit tests where I attempted to test every action that the code could perform. I tested fail cases and success cases. If the code failed, I had print statements to identify what went wrong and where. I also wanted these print statements to tell the end user important information. If they tried to input a Contact where the first name was too long then I had a statement that let them know that. I tried to approach this design from an end-user standpoint. What would the consumer want to be able to do and where could an error arise? Thinking of these questions helped drive how I made the code. 
