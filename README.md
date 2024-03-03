@@ -60,3 +60,19 @@ I like creating the UML diagrams. They provide a quick overview of how the syste
 
 **ContactClass**
 To ensure that my code is functional, I created JUnit tests where I attempted to test every action that the code could perform. I tested fail cases and success cases. If the code failed, I had print statements to identify what went wrong and where. I also wanted these print statements to tell the end user important information. If they tried to input a Contact where the first name was too long then I had a statement that let them know that. I tried to approach this design from an end-user standpoint. What would the consumer want to be able to do and where could an error arise? Thinking of these questions helped drive how I made the code. 
+
+**Course 300**
+What was the problem you were solving in the projects for this course?
+  I was given a company that had a list of interconnected courses. They want to be able to hold these courses in a data structure where they could access one course or view all courses in a schedule.  
+  
+How did you approach the problem? Consider why data structures are important to understand.
+  First, I had to decide what data structure would be best to hold such a list. I decided to choose a binary tree because of their ability to directly connect each object even if their runtime was the longest. 
+How did you overcome any roadblocks you encountered while going through the activities or project?
+
+  The biggest roadblock I had was keeping my head wrapped around what I needed to do and how. I spent a lot of time looking at the code that was given to us and trying to understand why each part was important. If I struggled with writting a specific method I would research as much as I could on what I needed to do and how. I learned a lot about how nodes worked and what they could do. If I really became fustrated I made sure to give myself time to step back from the code and come back to it later.
+  
+How has your work on this project expanded your approach to designing software and developing programs?
+  This project helped me learn a lot about binary trees, vectors, and hashtables. Before this project I had no idea what binary trees were, much less how to code one and perform actions on them. In regards to the actual process of developing a solution to a problem I now know the value of psuedocode and creating a baseline for what functions the project needs to have. 
+  
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+Before this project I didn't think that in line comments were all that important but now I realize how valuable they are. If I had to step away for a while and came back to no comments then I would have to relearn how my code worked by going line by line. With the inline comments I knew what steps I had completed and what I needed to do. 
