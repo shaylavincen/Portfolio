@@ -69,10 +69,36 @@ How did you approach the problem? Consider why data structures are important to 
   First, I had to decide what data structure would be best to hold such a list. I decided to choose a binary tree because of their ability to directly connect each object even if their runtime was the longest. 
 How did you overcome any roadblocks you encountered while going through the activities or project?
 
-  The biggest roadblock I had was keeping my head wrapped around what I needed to do and how. I spent a lot of time looking at the code that was given to us and trying to understand why each part was important. If I struggled with writting a specific method I would research as much as I could on what I needed to do and how. I learned a lot about how nodes worked and what they could do. If I really became fustrated I made sure to give myself time to step back from the code and come back to it later.
+  The biggest roadblock I had was keeping my head wrapped around what I needed to do and how. I spent a lot of time looking at the code that was given to us and trying to understand why each part was important. If I struggled with writing a specific method I would research as much as I could on what I needed to do and how. I learned a lot about how nodes worked and what they could do. If I really became frustrated I made sure to give myself time to step back from the code and come back to it later.
   
 How has your work on this project expanded your approach to designing software and developing programs?
-  This project helped me learn a lot about binary trees, vectors, and hashtables. Before this project I had no idea what binary trees were, much less how to code one and perform actions on them. In regards to the actual process of developing a solution to a problem I now know the value of psuedocode and creating a baseline for what functions the project needs to have. 
+  This project helped me learn a lot about binary trees, vectors, and hashtables. Before this project I had no idea what binary trees were, much less how to code one and perform actions on them. In regards to the actual process of developing a solution to a problem I now know the value of pseudo code and creating a baseline for what functions the project needs to have. 
   
 How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
-Before this project I didn't think that in line comments were all that important but now I realize how valuable they are. If I had to step away for a while and came back to no comments then I would have to relearn how my code worked by going line by line. With the inline comments I knew what steps I had completed and what I needed to do. 
+Before this project, I didn't think that in-line comments were all that important but now I realize how valuable they are. If I had to step away for a while and came back to no comments then I would have to relearn how my code worked by going line by line. With the inline comments, I knew what steps I had completed and what I needed to do. 
+
+**Course330**
+What new design skills has your work on the project helped you to craft?
+I think the most impactful design skill that came about in this project is the ability to break down objects into smaller basic shapes. 
+
+What design process did you follow for your project work?
+I followed the process laid out in the course. Start by creating the basic shape in the 3D space, add camera movement, add textures, add lighting, and then do that step by step for each object. 
+
+How could tactics from your design approach be applied in future work?
+One thing that I would add to my design approach for future work would be to break down each object into its own function instead of having it all under "RenderScene". 
+
+What new development strategies did you use while working on your 3D scene?
+To develop this project I had to reference the libraries far more than I have had to in the past. This helped me find functions such as the mouse scroller input.
+
+How did iteration factor into your development?
+After I finished creating the first object, the pencil, the others were a breeze. I could repeat and use similar coding techniques for each object.
+
+How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
+The biggest strategy that I changed was to look at what functions were already provided and how they would help me lead to the solution. 
+
+How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
+If I take another class in computational graphics this class was really useful in getting the basics solidified. 
+
+How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
+I don't believe that I will have to make 3D graphics for my current profession but maybe in the future if I move into something like marketing, I could create simple images to help demonstrate products. 
+
