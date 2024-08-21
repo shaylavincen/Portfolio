@@ -102,3 +102,17 @@ If I take another class in computational graphics this class was really useful i
 How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
 I don't believe that I will have to make 3D graphics for my current profession but maybe in the future if I move into something like marketing, I could create simple images to help demonstrate products. 
 
+**Course350**
+
+In this course, I created a project using the CC3220SF development board. The goal of the project was to read the temperature from the board's sensor and perform a couple of operations. The project successfully outputs the content to the terminal. 
+
+Understanding the Task Scheduler was the easy part. Setting up the button and temperature timers was intuitive. I knew that I had to perform actions every time a timer would go off so I made methods to keep it tidy. I did struggle a little with understanding why the temperature timer and the LED timer had to be separate functions. The only thing the temperature method did was set the value of whether heat was on or off. 
+
+I think the main way I could improve is by understanding all the code that was given to us. I had to look into the declaration of one parameter multiple times. 
+
+I had never used any piece of hardware before so it was really useful to learn about how it interacts with software development. If I ever need to use a development board again then I have the basic level of understanding. 
+
+I made the project maintainable by adding comments and separating actions into their methods. 
+
+
+
