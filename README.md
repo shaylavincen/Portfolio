@@ -114,5 +114,13 @@ I had never used any piece of hardware before so it was really useful to learn a
 
 I made the project maintainable by adding comments and separating actions into their methods. 
 
+#EventAPP CS360
+The EventApp Application is an event-tracking application that was made to be simple and easy to use. The main user need that the app seeks to address is the need to organize. Users have many events to remember and sometimes a little reminder ensures that it is not forgotten.
 
+The app has a login screen to enter the application, a home screen with a list of events, and an add event screen to input event information. The biggest design choice I made to align with user needs is the order of the events. When an event is added the date is checked and then input into the recyclerview in the appropriate place. Then I ordered the events with the soonest date first. A user can then delete an event once the date has passed. 
 
+I took a lot of time coding my application and it wasn't until the middle that I understood how important frequent testing is. I started to test everything. For example, whenever a button was clicked I would output to logcat that "a button was clicked" so I could be sure the app got to that onclicklistener. 
+
+I had to be a little creative when creating the database because I did not know till it was too late that a database could have multiple tables. I created two databases - One for the login data, and the other for the event data. 
+
+I think I was fairly successful overall, but I am particularly proud of the home page. I was able to set cards into the recyclerview, highlight them, add edit and delete buttons, etc. 
